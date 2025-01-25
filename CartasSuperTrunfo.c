@@ -13,7 +13,7 @@ int main() {
     char nome_cidade[100];
     
     // Cadastro das Cartas:
-    
+
     printf("Codigo da Cidade\n");
     scanf(" %d", &cod_cidade);
 
@@ -34,12 +34,12 @@ int main() {
 
      // Exibição dos Dados das Cartas:
 
-    printf("Codigo da Cidade: %d\n", cod_cidade, nome_cidade);
+    printf("Codigo da Cidade: %d\n", cod_cidade);
     printf("Nome da Cidade: %s\n", nome_cidade);
-    printf("População: \n");
+    printf("População: %d\n", populacao);
     printf("Área: %0.2f\n", area);
     printf("PIB: %0.2f\n", pib);
-    printf("Pontos Turisticos: %d", pontos_turistico);
+    printf("Pontos Turisticos: %d\n", pontos_turistico);
 
     return 0;
 }
